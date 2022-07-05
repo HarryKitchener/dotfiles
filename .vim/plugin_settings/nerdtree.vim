@@ -19,3 +19,6 @@ if match(&runtimepath, 'nerdtree') != -1
     endif
   endfunction
 endif
+
+autocmd VimEnter * NERDTree
+
