@@ -22,7 +22,7 @@ Clone the repository into **~/dotfiles**: `git clone https://github.com/mrded/do
 
 ## Troubleshooting
 
-neovim sometimes may not install pluggins propperly. Try to run following:
+neovim sometimes may not install plugins propperly. Try to run following:
 
     :UpdateRemotePlugins 
 
