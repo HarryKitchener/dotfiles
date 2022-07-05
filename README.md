@@ -1,4 +1,4 @@
-# Dmitry Demenchuk does dotfiles
+# Harry Kitchener does dotfiles
 
 The single dot that has it all.
 
