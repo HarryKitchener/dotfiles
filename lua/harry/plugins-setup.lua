@@ -53,6 +53,7 @@ return packer.startup(function(use)
 
     -- color scheme
     use("bluz71/vim-nightfly-guicolors")
+    use("catppuccin/nvim")
 
     -- file explorer
     use("nvim-tree/nvim-tree.lua")
@@ -75,6 +76,9 @@ return packer.startup(function(use)
 
     -- surround with symbol
     use("tpope/vim-surround")
+
+    -- comment
+    use("scrooloose/nerdcommenter")
 
     if packer_bootstrap then
         require("packer").sync()

@@ -3,7 +3,9 @@
 -- Set your options
 -- line numbers
 vim.o.number = true
-vim.o.relativenumber = true
+vim.o.relativenumber = false
+vim.o.colorcolumn = "80"
+
 
 -- tabs and indentations
 vim.o.tabstop = 4
