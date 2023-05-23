@@ -6,10 +6,9 @@ require("harry.plugins.nvim-tree")
 require("harry.plugins.vim-airline")
 require("harry.plugins.vim-bufferline")
 require("harry.plugins.nvim-cmp")
+require("harry.plugins.nvim-treesitter")
 require("harry.plugins.telescope")
 require("harry.plugins.lsp.mason")
 require("harry.plugins.lsp.lspconfig")
 
 
--- Set the leader key to " "
-vim.g.mapleader = " "

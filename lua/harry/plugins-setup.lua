@@ -30,7 +30,7 @@ return packer.startup(function(use)
     use("wbthomason/packer.nvim")
 
     -- lua functions that many plugins use
-    use("nvim-lua/plenary.nvim") 
+    use("nvim-lua/plenary.nvim")
 
     -- mason - managing and installing lsp servers
     use("williamboman/mason.nvim")
@@ -52,8 +52,8 @@ return packer.startup(function(use)
     use("hrsh7th/cmp-nvim-lsp") -- for autocompletion
 
     -- color scheme
-    use("bluz71/vim-nightfly-guicolors")
-    use("catppuccin/nvim")
+    --use("bluz71/vim-nightfly-guicolors")
+    use{"catppuccin/nvim", as = "catppuccin"}
 
     -- file explorer
     use("nvim-tree/nvim-tree.lua")
@@ -79,6 +79,15 @@ return packer.startup(function(use)
 
     -- comment
     use("scrooloose/nerdcommenter")
+
+    -- treesitter
+    use {
+        'nvim-treesitter/nvim-treesitter',
+        run = function()
+            local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
+            ts_update()
+        end,
+    }
 
     if packer_bootstrap then
         require("packer").sync()
