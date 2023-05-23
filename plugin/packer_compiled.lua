@@ -184,6 +184,11 @@ _G.packer_plugins = {
     path = "/Users/harrykitchener/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["vim-airline"] = {
+    loaded = true,
+    path = "/Users/harrykitchener/.local/share/nvim/site/pack/packer/start/vim-airline",
+    url = "https://github.com/vim-airline/vim-airline"
+  },
   ["vim-surround"] = {
     loaded = true,
     path = "/Users/harrykitchener/.local/share/nvim/site/pack/packer/start/vim-surround",

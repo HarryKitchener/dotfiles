@@ -13,6 +13,6 @@ require("harry.plugins.nvim-cmp")
 require("harry.plugins.nvim-treesitter")
 
 require("harry.plugins.nvim-bufferline")
---require("harry.plugins.vim-airline")
+require("harry.plugins.vim-airline")
 
 

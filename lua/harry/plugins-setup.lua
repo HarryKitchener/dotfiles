@@ -69,7 +69,7 @@ return packer.startup(function(use)
     use("nvim-tree/nvim-web-devicons")
 
     -- airline
-    --use 'vim-airline/vim-airline'
+    use 'vim-airline/vim-airline'
 
     -- bufferline
     use {'akinsho/nvim-bufferline.lua', requires = 'kyazdani42/nvim-web-devicons'}
