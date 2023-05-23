@@ -5,7 +5,19 @@ require'nvim-treesitter.configs'.setup {
     -- If a custom path is used (not nil) it must be added to the runtimepath.
 
     -- A list of parser names, or "all"
-    ensure_installed = { "c", "lua", "rust", "python" },
+    ensure_installed = {
+        "c",
+        "lua",
+        "rust",
+        "python",
+        "html",
+        "javascript",
+        "regex",
+        "bash",
+        "todotxt",
+        "vim",
+        "dockerfile",
+    },
 
     -- Install parsers synchronously (only applied to `ensure_installed`)
     sync_install = false,
