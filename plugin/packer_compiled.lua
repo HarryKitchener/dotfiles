@@ -134,6 +134,11 @@ _G.packer_plugins = {
     path = "/Users/harrykitchener/.local/share/nvim/site/pack/packer/start/nerdcommenter",
     url = "https://github.com/scrooloose/nerdcommenter"
   },
+  ["nvim-bufferline.lua"] = {
+    loaded = true,
+    path = "/Users/harrykitchener/.local/share/nvim/site/pack/packer/start/nvim-bufferline.lua",
+    url = "https://github.com/akinsho/nvim-bufferline.lua"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/Users/harrykitchener/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -178,16 +183,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/harrykitchener/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
-  },
-  ["vim-airline"] = {
-    loaded = true,
-    path = "/Users/harrykitchener/.local/share/nvim/site/pack/packer/start/vim-airline",
-    url = "https://github.com/vim-airline/vim-airline"
-  },
-  ["vim-bufferline"] = {
-    loaded = true,
-    path = "/Users/harrykitchener/.local/share/nvim/site/pack/packer/start/vim-bufferline",
-    url = "https://github.com/bling/vim-bufferline"
   },
   ["vim-surround"] = {
     loaded = true,
