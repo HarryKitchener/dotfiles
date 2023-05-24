@@ -2,7 +2,10 @@
 -- bufferline.lua configuration
 require('bufferline').setup{
   options = {
-    numbers = "ordinal", -- Use ordinal numbers instead of absolute numbers
+    --numbers = "ordinal", -- Use ordinal numbers instead of absolute numbers
+    numbers = function(opts)
+        return string.format('%s|%s', opts.id, opts.raise(opts.ordinal))
+    end,
     separator_style = "thin", -- Set the separator style to "thin"
     diagnostics = "nvim_lsp", -- Show diagnostic indicators from Neovim LSP client
     diagnostics_indicator = function(count, level, diagnostics_dict, context)

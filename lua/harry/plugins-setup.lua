@@ -80,6 +80,15 @@ return packer.startup(function(use)
     -- comment
     use("scrooloose/nerdcommenter")
 
+    -- hardtime - assists with good command workflow
+    use("m4xshen/hardtime.nvim")
+
+    -- doge - documentation generator
+    use {
+        'kkoomen/vim-doge',
+        run = ':call doge#install()'
+    }
+
     -- treesitter
     use {
         'nvim-treesitter/nvim-treesitter',

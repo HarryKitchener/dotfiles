@@ -11,8 +11,10 @@ require("harry.plugins.telescope")
 
 require("harry.plugins.nvim-cmp")
 require("harry.plugins.nvim-treesitter")
+require("harry.plugins.vim-doge")
 
 require("harry.plugins.nvim-bufferline")
 require("harry.plugins.vim-airline")
+require("harry.plugins.hardtime")
 
 

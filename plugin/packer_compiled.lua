@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "/Users/harrykitchener/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["hardtime.nvim"] = {
+    loaded = true,
+    path = "/Users/harrykitchener/.local/share/nvim/site/pack/packer/start/hardtime.nvim",
+    url = "https://github.com/m4xshen/hardtime.nvim"
+  },
   ["lspkind.nvim"] = {
     loaded = true,
     path = "/Users/harrykitchener/.local/share/nvim/site/pack/packer/start/lspkind.nvim",
@@ -188,6 +193,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/harrykitchener/.local/share/nvim/site/pack/packer/start/vim-airline",
     url = "https://github.com/vim-airline/vim-airline"
+  },
+  ["vim-doge"] = {
+    loaded = true,
+    path = "/Users/harrykitchener/.local/share/nvim/site/pack/packer/start/vim-doge",
+    url = "https://github.com/kkoomen/vim-doge"
   },
   ["vim-surround"] = {
     loaded = true,
