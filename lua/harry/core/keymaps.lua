@@ -47,3 +47,7 @@ keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if ne
 
 -- DOGE 
 keymap.set("n", "<leader>ds", ":DogeGenerate google") -- generate comments for current file using google style
+
+-- copilot
+vim.g.copilot_no_tab_map = true
+keymap.set("i", "<C-A>", 'copilot#Accept("<CR>")', { silent = true, expr = true, replace_keycodes = false, noremap = true})
