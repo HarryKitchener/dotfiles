@@ -37,6 +37,3 @@ vim.o.clipboard = vim.o.clipboard .. 'unnamedplus'
 -- split windows
 vim.o.splitright = true
 vim.o.splitbelow = true
-
-
-

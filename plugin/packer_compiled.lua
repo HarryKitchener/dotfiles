@@ -139,6 +139,11 @@ _G.packer_plugins = {
     path = "/Users/harrykitchener/.local/share/nvim/site/pack/packer/start/nerdcommenter",
     url = "https://github.com/scrooloose/nerdcommenter"
   },
+  ["nvim-autopairs"] = {
+    loaded = true,
+    path = "/Users/harrykitchener/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
+  },
   ["nvim-bufferline.lua"] = {
     loaded = true,
     path = "/Users/harrykitchener/.local/share/nvim/site/pack/packer/start/nvim-bufferline.lua",

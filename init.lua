@@ -16,5 +16,6 @@ require("harry.plugins.vim-doge")
 require("harry.plugins.nvim-bufferline")
 require("harry.plugins.vim-airline")
 require("harry.plugins.hardtime")
+require("harry.plugins.nvim-autopairs")
 
 

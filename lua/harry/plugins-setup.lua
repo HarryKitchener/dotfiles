@@ -89,6 +89,9 @@ return packer.startup(function(use)
         run = ':call doge#install()'
     }
 
+    -- autoclose 
+    use("windwp/nvim-autopairs")
+
     -- treesitter
     use {
         'nvim-treesitter/nvim-treesitter',
