@@ -81,7 +81,7 @@ return packer.startup(function(use)
     use("scrooloose/nerdcommenter")
 
     -- hardtime - assists with good command workflow
-    use("m4xshen/hardtime.nvim")
+    --use("m4xshen/hardtime.nvim")
 
     -- doge - documentation generator
     use {
@@ -91,6 +91,21 @@ return packer.startup(function(use)
 
     -- autoclose 
     use("windwp/nvim-autopairs")
+
+    -- git
+    use ('TimUntersberger/neogit')
+
+    -- dashboard
+    use {
+      'glepnir/dashboard-nvim',
+      event = 'VimEnter',
+      config = function()
+        require('dashboard').setup {
+          -- config
+        }
+      end,
+      requires = {'nvim-tree/nvim-web-devicons'}
+    }
 
     -- treesitter
     use {

@@ -6,10 +6,15 @@ vim.o.number = true
 vim.o.relativenumber = false
 vim.o.colorcolumn = "80"
 
+-- fix python indents
+vim.g.pyindent_open_paren = '0'
+vim.g.pyindent_nested_paren = '&sw'
+vim.g.pyindent_continue = '&sw'
+
 
 -- tabs and indentations
-vim.o.tabstop = 4
-vim.o.shiftwidth = 4
+vim.o.tabstop = 2
+vim.o.shiftwidth = 2 
 vim.o.expandtab = true
 vim.o.autoindent = true
 
