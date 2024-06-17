@@ -18,4 +18,5 @@ require("harry.plugins.vim-airline")
 --require("harry.plugins.hardtime")
 require("harry.plugins.nvim-autopairs")
 require("harry.plugins.neogit")
+--require("harry.plugins.reach")
 

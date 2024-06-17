@@ -53,3 +53,6 @@ keymap.set("n", "<leader>ds", ":DogeGenerate google<CR>") -- generate comments f
 -- copilot
 vim.g.copilot_no_tab_map = true
 keymap.set("i", "<C-A>", 'copilot#Accept("<CR>")', { silent = true, expr = true, replace_keycodes = false, noremap = true})
+
+-- reach
+vim.keymap.set('n', '<leader>rb', function() require('reach').buffers(buffer_options) end, {})

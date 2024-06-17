@@ -192,6 +192,11 @@ _G.packer_plugins = {
     path = "/Users/harrykitchener/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["reach.nvim"] = {
+    loaded = true,
+    path = "/Users/harrykitchener/.local/share/nvim/site/pack/packer/start/reach.nvim",
+    url = "https://github.com/toppair/reach.nvim"
+  },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
     path = "/Users/harrykitchener/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",

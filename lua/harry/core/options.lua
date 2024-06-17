@@ -3,7 +3,8 @@
 -- Set your options
 -- line numbers
 vim.o.number = true
-vim.o.relativenumber = false
+vim.o.relativenumber = true
+vim.o.statuscolumn = "%s %l %r "
 vim.o.colorcolumn = "80"
 
 -- fix python indents
