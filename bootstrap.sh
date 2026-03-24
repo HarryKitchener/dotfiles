@@ -3,8 +3,8 @@
 # Usage: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/YOURUSER/dotfiles/main/bootstrap.sh)"
 set -euo pipefail
 
-DOTFILES_REPO_SSH="git@github.com:YOURUSER/dotfiles.git"
-DOTFILES_REPO_HTTPS="https://github.com/YOURUSER/dotfiles.git"
+DOTFILES_REPO_SSH="git@github.com:HarryKitchener/dotfiles.git"
+DOTFILES_REPO_HTTPS="https://github.com/HarryKitchener/dotfiles.git"
 DOTFILES_DIR="$HOME/.dotfiles"
 
 echo "==> Dotfiles bootstrap starting..."

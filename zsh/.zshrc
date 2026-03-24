@@ -20,6 +20,10 @@ alias gl="git log --oneline --graph --decorate -20"
 alias ..="cd .."
 alias ...="cd ../.."
 
+# Tools
+eval "$(zoxide init zsh)"           # smarter cd (use 'z' instead of 'cd')
+source <(fzf --zsh)                 # fuzzy finder shell integration
+
 # Prompt
 eval "$(starship init zsh)"
 
