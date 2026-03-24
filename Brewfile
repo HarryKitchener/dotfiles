@@ -1,5 +1,3 @@
-tap "homebrew/bundle"
-
 # Shell & prompt
 brew "starship"
 brew "zsh-completions"
