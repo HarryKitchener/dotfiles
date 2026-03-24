@@ -24,3 +24,6 @@ brew "jq"
 # Apps
 cask "ghostty"
 cask "karabiner-elements"
+
+# Fonts
+cask "font-jetbrains-mono-nerd-font"
