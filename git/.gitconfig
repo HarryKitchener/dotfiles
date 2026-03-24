@@ -1,0 +1,38 @@
+[user]
+	name = Your Name
+	email = you@personal.com
+
+[core]
+	editor = nvim
+	excludesfile = ~/.gitignore_global
+	autocrlf = input
+
+[init]
+	defaultBranch = main
+
+[push]
+	default = simple
+	autoSetupRemote = true
+
+[pull]
+	rebase = true
+
+[alias]
+	st = status
+	co = checkout
+	lg = log --oneline --graph --decorate -20
+	undo = reset HEAD~1 --mixed
+
+[credential]
+	helper = osxkeychain
+
+# Per-directory identity overrides
+# Adjust these paths to match where you keep your repos
+[includeIf "gitdir:~/github/"]
+	path = ~/.dotfiles/git/identities/github.gitconfig
+[includeIf "gitdir:~/gitlab/"]
+	path = ~/.dotfiles/git/identities/gitlab.gitconfig
+
+# Machine-local overrides (gitignored, never tracked)
+[include]
+	path = ~/.gitconfig.local

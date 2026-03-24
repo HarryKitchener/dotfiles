@@ -1,0 +1,28 @@
+add_newline = true
+
+format = """
+$directory$git_branch$git_status$cmd_duration
+$character"""
+
+[directory]
+truncation_length = 3
+truncate_to_repo = true
+
+[git_branch]
+symbol = " "
+
+[git_status]
+ahead = "↑"
+behind = "↓"
+diverged = "⇕"
+modified = "!"
+untracked = "?"
+staged = "+"
+
+[character]
+success_symbol = "[❯](green)"
+error_symbol = "[❯](red)"
+
+[cmd_duration]
+min_time = 2000
+format = " took [$duration](yellow)"

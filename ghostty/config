@@ -1,0 +1,13 @@
+# Font
+font-family = "JetBrainsMono Nerd Font"
+font-size = 14
+
+# Theme
+theme = dark:catppuccin-mocha,light:catppuccin-latte
+
+# Window
+window-padding-x = 8
+window-padding-y = 8
+
+# Shell
+shell-integration = zsh

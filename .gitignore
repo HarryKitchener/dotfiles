@@ -1,0 +1,20 @@
+# Secrets / SSH keys (never track these)
+*.pem
+*.key
+id_rsa
+id_ed25519*
+*.pub
+
+# Machine-local overrides
+zsh/.zshrc.local
+git/.gitconfig.local
+
+# Claude runtime state
+claude/history.jsonl
+claude/sessions/
+claude/cache/
+claude/backups/
+
+# macOS
+.DS_Store
+**/.DS_Store
